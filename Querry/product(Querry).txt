@@ -1,0 +1,9 @@
+CREATE TABLE `mydocument`.`product` (
+  `id` INT NOT NULL,
+  `name` VARCHAR(45) NULL,
+  `description` VARCHAR(45) NULL,
+  `price` INT NULL,
+  `quantity` INT NULL,
+  `status` TINYINT NULL,
+  PRIMARY KEY (`id`));
+
