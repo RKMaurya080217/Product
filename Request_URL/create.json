@@ -1,8 +1,8 @@
 {
-  "id": "1",
-  "name": "Realme 2 pro",
-  "description": "Good smart phone in low price",
-  "price": "14000",
-  "quantity": "10",
-  "status": true
+  "productid": "1",
+  "productname": "Realme 2 pro",
+  "productdesc": "Good smart phone in low price",
+  "productprice": "14000",
+  "productquantity": "10",
+  "productstock": true
 }

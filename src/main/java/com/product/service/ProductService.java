@@ -1,8 +1,8 @@
-package com.service;
+package com.product.service;
 
 import java.util.List;
 
-import com.dto.ProductDTO;
+import com.product.dto.ProductDTO;
 
 public interface ProductService {
 	public ProductDTO createProduct(ProductDTO productdto);

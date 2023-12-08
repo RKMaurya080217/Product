@@ -1,4 +1,4 @@
-package com.controller;
+package com.product.controller;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -7,8 +7,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.dto.ProductDTO;
-import com.service.ProductServiceImpl;
+import com.product.dto.ProductDTO;
+import com.product.service.ProductServiceImpl;
 
 @RestController
 @RequestMapping("/product")

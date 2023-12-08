@@ -1,11 +1,11 @@
-package com.dao;
+package com.product.dao;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
-import com.dto.ProductDTO;
+import com.product.dto.ProductDTO;
 
 public class ProductDAO {
 	private String insert = "INSERT INTO product (id, name, description, price, quantity, status) VALUES (?, ?, ?, ?, ?, ?)";
@@ -35,10 +35,10 @@ public class ProductDAO {
 		}
 
 		if (rowsAffected > 0) {
-			System.out.println(productdto.getProductname() + " Task added successfully!");
+			System.out.println(productdto.getProductname() + " product added successfully!");
 			return productdto;
 		} else {
-			System.out.println(productdto.getProductname() + " Failed to add task.");
+			System.out.println(productdto.getProductname() + " Failed to add product.");
 			return null;
 		}
 	}

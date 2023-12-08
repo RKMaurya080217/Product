@@ -1,4 +1,4 @@
-package com.dto;
+package com.product.dto;
 
 public class ProductDTO {
 	private int productid;

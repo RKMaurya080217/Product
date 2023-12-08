@@ -1,9 +1,9 @@
-package com.service;
+package com.product.service;
 
 import java.util.List;
 
-import com.dao.ProductDAO;
-import com.dto.ProductDTO;
+import com.product.dao.ProductDAO;
+import com.product.dto.ProductDTO;
 
 public class ProductServiceImpl implements ProductService {
 	ProductDAO productdao;
